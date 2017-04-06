@@ -52,6 +52,5 @@ int main()
     }
     cout<<"El numero "<<a<<" primo es: "<<b;
 
-
     return 0;
 }
