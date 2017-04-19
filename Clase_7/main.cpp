@@ -49,12 +49,14 @@ void inverse( int *l,int len)
             x++;*/
         }
     }
-    /*else{
-        temp=*l;
-        *l=*++l;
-        *l=temp;
-        *--l;
-    }*/
+    else
+        {
+        l2=l,l3=l+1;
+        temp=*l2;
+        *l2=*l3;
+        *l3=temp;
+    }
+
     cout<<"El arreglo al reves es: \n";
     for(x=0;x<len;x++)
     {
@@ -68,11 +70,14 @@ void inverse( int *l,int len)
 void orden(int *l,int len)
 {
     int temp;
-    int *l2=l,*l3=l+1;
+
     for(int j=0;j<len;j++)
     {
-        for (int i=0;i<len;i++)
+        int *l2=l,*l3=l+1;
+        //int *a=l,*b=l+1,*c=l+2;
+        for (int i=0;i<len-1;i++)
         {
+            //cout<<"a "<<*a<<" b "<<*b<<" c "<<*c<<" i "<<i<<endl<<endl;
             if(*l2>*l3)
             {
                 temp=*l3;
@@ -81,7 +86,9 @@ void orden(int *l,int len)
             }
             l2++;
             l3++;
+            //cout<<"   2   "<<"a "<<*a<<" b "<<*b<<" c "<<*c<<" i "<<i<<endl<<endl;
         }
+
     }
     cout<<"El arreglo ordenado es: \n";
     for(int x=0;x<len;x++)
@@ -90,14 +97,15 @@ void orden(int *l,int len)
     }
 }
 
-int cadena(char str[])
+int cadena(char *str)
 {
     int sum=0;
     int x=0;
-    while((char)isalpha(str[x])and str!='\0')
+    while((char)isalpha(*str)and *str!='\0')
     {
         sum++;
         x++;
+        str++;
     }
     return sum;
 }
