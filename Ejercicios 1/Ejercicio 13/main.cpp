@@ -2,27 +2,30 @@
 
 using namespace std;
 
-void rever(int *l[],int n)
+void rever(int *l,int n)
 {
+    int *l2=l+n-1,*l3=l;
     int temp,i=n-1,x=0;
     if(n!=2)
     {
         while(x<=n/2 and i>=0)
         {
-            temp=*l[x];
-            *l[x]=*l[x+i];
-            *l[x+i]=temp;
+            temp=*l2;
+            *l2=*l3;
+            *l3=temp;
             i-=2;
             x++;
+            l2--;
+            l3++;
         }
     }
     else
     {
-        temp=*l[0];
-        *l[0]=*l[1];
-        *l[1]=temp;
+        l2=l,l3=l+1;
+        temp=*l2;
+        *l2=*l3;
+        *l3=temp;
     }
-
 }
 
 int main()
