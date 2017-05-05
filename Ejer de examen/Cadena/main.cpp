@@ -1,27 +1,17 @@
-
 #include <iostream>
 using namespace std;
-/*
-char rever(char *pa,int n,int x)
-{
-    if(n==x)
-        return *pa;
-    char temp, *pa2=pa+n;
-    temp=*pa;
-    *pa=*pa2;
-    *pa2=temp;
-    return rever(pa,n--,x--);
-}*/
 
-char *rever2(char *pa,int n, int x)
+
+
+void rever(char pa[],int x,int n)
 {
-    if(n==x)
-        return pa;
-    char temp, *pa2=pa+n;
-    temp=*pa;
-    *pa=*pa2;
-    *pa2=temp;
-    return rever2(pa,n--,x--);
+    if(x!=((n/2)+1))
+    {
+        char temp=pa[x];
+        pa[x]=pa[n-x];
+        pa[n-x]=temp;
+        rever(pa,x+1,n);
+    }
 }
 
 int main()
@@ -36,8 +26,7 @@ int main()
     }
     n--;
     x=0;
-    rever2(pa,n,x);
+    rever(pa,x,n);
     cout<<"\nla palabra al reves es: "<<pa;
     return 0;
 }
-

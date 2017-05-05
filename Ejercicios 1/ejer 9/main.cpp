@@ -11,7 +11,7 @@ int main()
         cout<<arr[i]<<endl;
     }
     cout<<endl;
-	for (int i=0;i<length;i++)
+	for (int i=1;i<length;i++)
     {
 		j = i;
 		while (j>0 and arr[j]<arr[j-1])

@@ -1,45 +1,32 @@
 #include <iostream>
 
 using namespace std;
-void merge(int *a, int low, int high, int mid)
+
+void merge(int arr[], int low, int high, int mid)
 {
-    int i, j, k, c[50];
-    i = low;
-    k = low;
-    j = mid + 1;
-    while (i <= mid && j <= high)
+    int arr1[6],arr2[6];
+    int n1,n2,i,j,k;
+    n1=mid-low+1;
+    n2=high-mid;
+
+    for(i=0;i<n1;i++)
+        arr1[i]=arr[i+1];
+    for(j=0;j<n2;j++)
+        arr2[j]=arr[mid+j+1];
+    arr1[i]=99999;
+    arr2[j]=99999;
+
+    i=0;
+    j=0;
+    for(k=low;k<=high;k++)
     {
-        if (a[i] < a[j])
-        {
-            c[k] = a[i];
-            k++;
-            i++;
-        }
+        if(arr1[i]<=arr2[j])
+            arr[k]=arr1[i++];
         else
-        {
-            c[k] = a[j];
-            k++;
-            j++;
-        }
-    }
-    while (i <= mid)
-    {
-        c[k] = a[i];
-        k++;
-        i++;
-    }
-    while (j <= high)
-    {
-        c[k] = a[j];
-        k++;
-        j++;
-    }
-    for (i = low; i < k; i++)
-    {
-        a[i] = c[i];
+            arr[k]=arr2[j++];
     }
 }
-void mergesort(int *a, int low, int high)
+void mergesort(int a[], int low, int high)
 {
     int mid;
     if (low < high)
@@ -48,7 +35,6 @@ void mergesort(int *a, int low, int high)
         mergesort(a,low,mid);
         mergesort(a,mid+1,high);
         merge(a,low,high,mid);
-
     }
 }
 
