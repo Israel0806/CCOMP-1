@@ -12,7 +12,10 @@ class Clientes
         //Clientes();
         void SetData();
         void GetData();
-
+        /*void ChangeName();
+        void ChangeDirec();
+        void ChangePref();
+        void ChangeEdad();*/
 };
 
 #endif // CLIENTES_H
