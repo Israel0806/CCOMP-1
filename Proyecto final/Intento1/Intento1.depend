@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1494540994 source:c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1494540984 c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\clientes.h
+	<iostream>
+
+1494540724 source:c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\main.cpp
+	<iostream>
+	"Clientes.h"
+
