@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1494605629 source:c:\users\israe\desktop\semestre ii\cc i\proyectos\clase 11\main.cpp
+	<iostream>
+	"Vec.h"
+
+1494605410 c:\users\israe\desktop\semestre ii\cc i\proyectos\clase 11\vec.h
+	"Point.h"
+
+1494605410 c:\users\israe\desktop\semestre ii\cc i\proyectos\clase 11\point.h
+
+1494605410 source:c:\users\israe\desktop\semestre ii\cc i\proyectos\clase 11\point.cpp
+	"Point.h"
+
+1494605582 source:c:\users\israe\desktop\semestre ii\cc i\proyectos\clase 11\vec.cpp
+	"Vec.h"
+	<math.h>
+	<iostream>
+
