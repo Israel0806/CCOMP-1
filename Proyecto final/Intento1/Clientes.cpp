@@ -1,15 +1,21 @@
 #include "Clientes.h"
 #include <iostream>
 using namespace std;
-void Clientes::SetData()
+void Clientes::SetData(string nombre, string direccion, string preferencia, int edad, string sexo,int x)// cambiar a char el sexo jejeje
 {
-    cout<<"Ingrese el nombre: "; cin>>nombre;
-    cout<<"Ingrese la direccion: "; cin>>direccion;
-    cout<<"Ingrese la edad: "; cin>>edad;
-    cout<<"Ingrese las preferencias: "; cin>>preferencia;
+    listaClienteChar[x][0]=nombre;
+    listaClienteChar[x][1]=direccion;
+    listaClienteChar[x][2]=preferencia;
+    listaClienteChar[x][3]=sexo;
+    listaClienteInt[x][0]=edad;
+    listaClienteInt[x][1]=x;
 }
 
-void Clientes::GetData()
+void Clientes::GetData(int a)
 {
-    cout<<"Nombre: "<<nombre<<endl<<"Direccion: "<<direccion<<endl<<"Preferencias: "<<preferencia<<endl<<"Edad: "<<edad<<endl;
+    cout<<"Nombre: "<<listaClienteChar[a][0]<<endl
+    <<"Direccion: "<<listaClienteChar[a][1]<<endl
+    <<"Preferencias: "<<listaClienteChar[a][2]<<endl
+    <<"Edad: "<<listaClienteInt[a][0]<<endl
+    <<"Sexo"<<listaClienteChar[a][3];
 }

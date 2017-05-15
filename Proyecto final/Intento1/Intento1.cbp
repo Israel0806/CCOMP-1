@@ -36,6 +36,8 @@
 		</Compiler>
 		<Unit filename="Clientes.cpp" />
 		<Unit filename="Clientes.h" />
+		<Unit filename="Producto.cpp" />
+		<Unit filename="Producto.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
