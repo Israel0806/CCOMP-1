@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494949158 source:c:\users\alumno-a\desktop\clase11\main.cpp
+	<iostream>
+	"Imag.h"
+
+1494949135 source:c:\users\alumno-a\desktop\clase11\imag.cpp
+	"Imag.h"
+	<iostream>
+
+1494949196 c:\users\alumno-a\desktop\clase11\imag.h
+
