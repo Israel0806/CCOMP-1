@@ -10,3 +10,13 @@ string Bus::getDesc()
     s<<year; s1<<nroWheel; s2<<nroFloor;
     return "Year: " + s.str() + "\nLicense: " + license + "\nNumber of Wheels: " + s1.str() + "\nNumber of Floors: " + s2.str();
 }
+
+int Bus::getNroWheel()
+{
+    return nroWheel;
+}
+
+int Bus::getNroFloor()
+{
+    return nroFloor;
+}

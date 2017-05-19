@@ -10,8 +10,8 @@ class Bus : public Vehicle
     public:
         Bus(const string &, const int, const int, const int);
         string getDesc();
-        string getNroWheel();
-        string getNroFloor();
+        int getNroWheel();
+        int getNroFloor();
 };
 
 #endif // BUS_H
