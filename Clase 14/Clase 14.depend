@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1495552492 source:c:\users\alumno-a\desktop\clase 14\main.cpp
+	<iostream>
+	<vector>
+	"Computadora.h"
+	"Producto.h"
+	"Television.h"
+
+1495552346 source:c:\users\alumno-a\desktop\clase 14\src\computadora.cpp
+	"Computadora.h"
+
+1495550988 c:\users\alumno-a\desktop\clase 14\include\computadora.h
+	"Producto.h"
+
+1495551911 c:\users\alumno-a\desktop\clase 14\include\producto.h
+	<iostream>
+
+1495552346 source:c:\users\alumno-a\desktop\clase 14\src\producto.cpp
+	"Producto.h"
+
+1495552221 c:\users\alumno-a\desktop\clase 14\include\television.h
+	<iostream>
+	"Producto.h"
+
+1495552346 source:c:\users\alumno-a\desktop\clase 14\src\television.cpp
+	"Television.h"
+
