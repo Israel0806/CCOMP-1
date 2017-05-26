@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1495815890 source:c:\users\alumno-g\desktop\clase 15\main.cpp
+	<iostream>
+	"Persona.h"
+	"Gerente.h"
+	"Conserge.h"
+	"Birthday.h"
+
+1495814508 source:c:\users\alumno-g\desktop\clase 15\src\arreglopersona.cpp
+	"ArregloPersona.h"
+
+1495814356 c:\users\alumno-g\desktop\clase 15\include\arreglopersona.h
+	"Persona.h"
+	<iostream>
+
+1495816075 source:c:\users\alumno-g\desktop\clase 15\src\conserge.cpp
+	"Conserge.h"
+
+1495815592 c:\users\alumno-g\desktop\clase 15\include\conserge.h
+	"Persona.h"
+	<iostream>
+
+1495815890 source:c:\users\alumno-g\desktop\clase 15\src\gerente.cpp
+	"Gerente.h"
+
+1495815557 c:\users\alumno-g\desktop\clase 15\include\gerente.h
+	"Persona.h"
+	<iostream>
+
+1495815481 c:\users\alumno-g\desktop\clase 15\include\persona.h
+	<string>
+	"Birthday.h"
+
+1495816075 source:c:\users\alumno-g\desktop\clase 15\src\persona.cpp
+	"Persona.h"
+
+1495813218 c:\users\alumno-g\desktop\clase 15\include\cumpleaños.h
+
+1495816349 c:\users\alumno-g\desktop\clase 15\include\birthday.h
+	<iostream>
+
+1495816223 source:c:\users\alumno-g\desktop\clase 15\src\birthday.cpp
+	"Birthday.h"
+
