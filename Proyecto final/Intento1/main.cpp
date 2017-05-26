@@ -42,7 +42,7 @@ int main()
 
 
     vector <Producto *> productos;
-    for(int y=0; y<10; y++) //Queda pendiente mejorar el push back
+    for(int y=0; y<20; y++) //Queda pendiente mejorar el push back
     {
         productos.push_back(&computadoras[y]);
         productos.push_back(&audifonos[y]);
