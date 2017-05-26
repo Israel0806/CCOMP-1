@@ -2,5 +2,12 @@
 #include <iostream>
 using namespace std;
 
-Producto::Producto(char miNombre[], int miPrecio,string miCategoria)
-    : nombre(miNombre), precio(miPrecio),categoria(miCategoria) {}
+Producto::Producto()
+{}
+
+void Producto::setData(string miNombre, float miPrecio,string miCategoria)
+{
+    nombre=miNombre;
+    precio=miPrecio;
+    categoria=miCategoria;
+}

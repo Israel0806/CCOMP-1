@@ -6,11 +6,12 @@ using namespace std;
 class Producto
 {
     protected:
-        char nombre[];
-        int precio;
+        string nombre;
+        float precio;
         string categoria;
     public:
-        Producto(string nombre, int,string);
+        Producto();
+        virtual void setData(string nombre, float,string);
 };
 
 #endif // PRODUCTO_H

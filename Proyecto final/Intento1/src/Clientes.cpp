@@ -1,9 +1,17 @@
 #include "Clientes.h"
 #include <iostream>
 using namespace std;
-void Clientes::SetData(char miNombre[], string miDireccion, int miEdad, char miSexo)// cambiar a char el sexo jejeje
-    : nombre(miNombre),direccion(miDireccion),edad(miEdad),sexo(miSexo)
+
+Clientes::Clientes()
+{}
+
+void Clientes::setData(char miNombre[], string miDireccion, int miEdad, char miSexo)// cambiar a char el sexo jejeje
+
 {
+    nombre=miNombre;
+    direccion=miDireccion;
+    edad=miEdad;
+    sexo=miSexo;
     /*listaClienteChar[x][0]=nombre;
     listaClienteChar[x][1]=direccion;
     listaClienteChar[x][2]=preferencia;
@@ -12,7 +20,7 @@ void Clientes::SetData(char miNombre[], string miDireccion, int miEdad, char miS
     listaClienteInt[x][1]=x;*/
 }
 
-void Clientes::GetData(int a)
+void Clientes::getData(int a)
 {
     cout<<"Nombre: "<<nombre<<endl
     <<"Direccion: "<<direccion<<endl

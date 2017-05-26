@@ -42,3 +42,60 @@
 	"Producto.h"
 	<iostream>
 
+1495824779 source:c:\users\israe\desktop\new folder (2)\intento1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	"Clientes.h"
+	"Producto.h"
+	"Audifonos.h"
+	"Impresoras.h"
+	"Software.h"
+	"TV.h"
+	"Computadora.h"
+	<stdlib.h>
+
+1495823155 c:\users\israe\desktop\new folder (2)\intento1\include\clientes.h
+	<iostream>
+
+1495823787 c:\users\israe\desktop\new folder (2)\intento1\include\producto.h
+	<iostream>
+
+1495824344 c:\users\israe\desktop\new folder (2)\intento1\include\audifonos.h
+	"Producto.h"
+
+1495824344 c:\users\israe\desktop\new folder (2)\intento1\include\impresoras.h
+	"Producto.h"
+
+1495824647 c:\users\israe\desktop\new folder (2)\intento1\include\software.h
+	"Producto.h"
+
+1495824363 c:\users\israe\desktop\new folder (2)\intento1\include\tv.h
+	"Producto.h"
+
+1495824418 c:\users\israe\desktop\new folder (2)\intento1\include\computadora.h
+	"Producto.h"
+
+1495824344 source:c:\users\israe\desktop\new folder (2)\intento1\src\audifonos.cpp
+	"Audifonos.h"
+
+1495822837 source:c:\users\israe\desktop\new folder (2)\intento1\src\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1495824445 source:c:\users\israe\desktop\new folder (2)\intento1\src\computadora.cpp
+	"Computadora.h"
+
+1495824562 source:c:\users\israe\desktop\new folder (2)\intento1\src\impresoras.cpp
+	"Impresoras.h"
+
+1495823697 source:c:\users\israe\desktop\new folder (2)\intento1\src\producto.cpp
+	"Producto.h"
+	<iostream>
+
+1495824647 source:c:\users\israe\desktop\new folder (2)\intento1\src\software.cpp
+	"Software.h"
+
+1495824710 source:c:\users\israe\desktop\new folder (2)\intento1\src\tv.cpp
+	"TV.h"
+

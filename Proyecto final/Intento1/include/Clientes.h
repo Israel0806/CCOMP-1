@@ -12,8 +12,9 @@ class Clientes
         //string nombre,direccion,preferencia,sexo;
         //int edad;
     public:
-        void SetData(char,string,string,int,string);
-        void GetData(int);
+        Clientes();
+        void setData(char miNombre[], string miDireccion, int miEdad, char miSexo);
+        void getData(int a);
         /*void ChangeName();
         void ChangeDirec();
         void ChangePref();

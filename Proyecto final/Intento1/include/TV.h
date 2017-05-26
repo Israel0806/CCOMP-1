@@ -4,13 +4,15 @@
 
 class TV : public Producto
 {
-    public:
-        TV(char miNombre[],int miPrecio,string miCategoria, char miCodigo[], string miCalidad, string miCaracteristicas[],string mipantallaTy, float miTam);
-//        getTv(char miCodigo[]);
     private:
-        char nombre[20],codigo[5]; // letra,calidad,caracteristicas,tipo del pantalla, tamaño
+        int codigo; // letra,calidad,caracteristicas,tipo del pantalla, tamaño
         float tam;
         string caracteristicas [3],pantallaTy,calidad;
+    public:
+        TV();
+        void setData(string miNombre,int miPrecio,string miCategoria, int miCodigo, string miCalidad, string miCaracteristicas[],string mipantallaTy, float miTam);
+//        getTv(char miCodigo[]);
+
 
 
 };

@@ -1,5 +1,7 @@
 #include <iostream>
 #include<stdlib.h>
+#include <vector>
+
 #include "Clientes.h"
 #include "Producto.h"
 #include "Audifonos.h"
@@ -12,7 +14,18 @@
 using namespace std;
 
 
+/* de char a int
+
+#include <stdlib.h>
+    char a[]={'1','2','3'};
+    int b=atoi(a);
+    cout<<b+2;
+
+*/
+
+
 void printMenu();
+void printCategorias();
 
 int main()
 {
@@ -23,14 +36,27 @@ int main()
     Software software[20];
     TV Tv[20];
     Impresoras impresoras[20];
+    /*vector <Clientes *> clientes;
+    vector <Computadora *> computadoras;*/
+
+
+
     vector <Producto *> productos;
-    productos.push_back(&computadoras)
+    for(int y=0; y<10; y++) //Queda pendiente mejorar el push back
+    {
+        productos.push_back(&computadoras[y]);
+        productos.push_back(&audifonos[y]);
+        productos.push_back(&software[y]);
+        productos.push_back(&Tv[y]);
+        productos.push_back(&impresoras[y]);
+    }
+
     //Declaracion de variables
 
-    int op,x=0,y=0;
+    int op,x=0,y=0,cat;
     int edad,precio,cantidad;
-    string direccion,preferencia,sexo,tipo;
-    char nombre[20];
+    string direccion,preferencia,tipo;
+    char nombre[20],sexo;
 
     do
     {
@@ -43,27 +69,56 @@ int main()
                 cout<<"Ingrese el nombre: "; cin>>nombre;
                 cout<<"Ingrese la direccion: "; cin>>direccion;
                 cout<<"Ingrese la edad: "; cin>>edad;
-                cout<<"Ingrese las preferencias: "; cin>>preferencia;
+                //cout<<"Ingrese las preferencias: "; cin>>preferencia;
                 cout<<"Ingrese el sexo: "; cin>>sexo;
+
                 //Coloca los datos del cliente en un array(por ahora)
-                clientes[x].SetData(nombre,direccion,preferencia,edad,sexo);
+                clientes[x].setData(nombre,direccion,edad,sexo);
                 x++; //actualiza numero de cliente(codigo)
                 break;
             case 2:
+                printCategorias(); cin>>cat;
+                switch(cat)
+                {
+                    case 1:
+
+                        break;
+                    case 2:
+
+
+                        break;
+                    case 3:
+
+
+                        break;
+                    case 4:
+
+
+                        break;
+                    case 5:
+
+
+                        break;
+                }
+
+
+
+
+
                 //Datos del producto
-                cout<<"\nDatos del producto "<<y+1<<": \n\n";
+                /*cout<<"\nDatos del producto "<<y+1<<": \n\n";
                 cout<<"Ingrese el nombre: "; cin>>nombre;
-                cout<<"Ingrese el tipo de producto: "; cin>>tipo;
+                cout<<"Ingrese la categoria del producto: "; cin>>tipo;
                 cout<<"Ingrese la cantidad: "; cin>>cantidad;
-                cout<<"Ingrese el precio: "; cin>>precio;
+                cout<<"Ingrese el precio: "; cin>>precio;*/
                 //Coloca los datos del producto en un array(por ahora)
-                productos.SetData(nombre,tipo,cantidad,precio,y);
+                //productos.setData(nombre,tipo,cantidad,precio,y);
 
                 y++;//Actualiza numero de producto(codigo)
                 break;
             case 3:
                 //Muestra todos los datos de todos los productos
-                productos.GetAllData(y);
+                //productos.getAllData(y);
                 break;
             case 4:
 
@@ -89,12 +144,26 @@ int main()
 
 void printMenu()
 {
-    cout<<"\t\t\t\t\t\t Menu de opciones \n"; //Ponerle nombre en vez menu de opciones
-    cout<<" 1.Ingresar cliente\n";
-    cout<<" 2.Ingresar producto\n";
-    cout<<" 3.Lista de productos\n";
-    cout<<" 4.Buscar producto\n";
-    cout<<" 5.Vender producto\n";
-    cout<<" 6.Salir\n";
-    cout<<"Ingrese una opcion\n";
+    cout<<"\t\t\t\t\t\t Menu de opciones"<<endl     //Ponerle nombre en vez menu de opciones
+        <<" 1.Ingresar cliente"  <<endl
+        <<" 2.Ingresar producto" <<endl
+        <<" 3.Lista de productos"<<endl
+        <<" 4.Buscar producto"   <<endl
+        <<" 5.Vender producto"   <<endl
+        <<" 6.Salir"             <<endl
+        <<"Ingrese una opcion"   <<endl;
 }
+
+void printCategorias()
+{
+    system("cls");
+    cout<<"\n\n 1. Audifonos "  <<endl
+        <<" 2. Computadoras "   <<endl
+        <<" 3. Impresoras "     <<endl
+        <<" 4. Software "       <<endl
+        <<" 5. Television "     <<endl
+        <<"\nIngrese una opcion"<<endl;
+}
+
+
+

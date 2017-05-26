@@ -2,14 +2,15 @@
 #define SOFTWARE_H
 #include "Producto.h"
 
-class Software
+class Software : public Producto
 {
 
     private:
         string Tier1,Tier2;
-        char codigo[3];
+        int codigo;
     public:
-        Software(float miPrecio, char miNombre[], string categoria, char miCodigo[], string miTier1, string miTier2);
+        Software();
+        void setData(string miNombre, float miPrecio, string miCategoria, int miCodigo, string miTier1, string miTier2);
 };
 
 #endif // SOFTWARE_H

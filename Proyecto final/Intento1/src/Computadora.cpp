@@ -1,4 +1,15 @@
 #include "Computadora.h"
 
-Computadora::Computadora(char miNombre[], float miPrecio, string miCategoria,string miTipo)
-    : Producto(miNombre, miPrecio, miCategoria), tipo(miTipo) {}
+Computadora::Computadora()
+{
+
+}
+
+void Computadora::setData(string miNombre, float miPrecio, string miCategoria, int miCodigo,string miTipo)
+{
+    nombre=miNombre;
+    precio=miPrecio;
+    categoria=miCategoria;
+    codigo=miCodigo;
+    tipo=miTipo;
+}

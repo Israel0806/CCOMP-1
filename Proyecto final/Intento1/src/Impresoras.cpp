@@ -1,5 +1,19 @@
 #include "Impresoras.h"
 
-Impresoras::Impresoras(char miNombre[],float miPrecio,string miCategoria, char miCodigo[], string miTipo, char miCaracteristica[])
-    :Producto(miNombre, miPrecio, miCategoria), codigo(miCodigo), tipo(miTipo), caracteristica(miCaracteristica) {}
+Impresoras::Impresoras()
+{
 
+}
+
+
+void Impresoras::setData(string miNombre,float miPrecio,string miCategoria, int miCodigo, string miTipo, string miCaracteristica[])
+{
+    nombre=miNombre;
+    precio=miPrecio;
+    categoria=miCategoria;
+    codigo=miCodigo;
+    tipo=miTipo;
+    for(int x=0;x<3;x++)
+        caracteristicas[x]=miCaracteristica[x];
+
+}

@@ -5,10 +5,11 @@
 class Impresoras : public Producto
 {
     private:
-        char caracteristicas[3],codigo[3];
-        string tipo;
+        int codigo;
+        string tipo,caracteristicas[3];
     public:
-        Impresoras(char miNombre[],float miPrecio,string miCategoria, char miCodigo[], string miTipo, char miCaracteristica[]);
+        Impresoras();
+        void setData(string miNombre,float miPrecio,string miCategoria, int miCodigo, string miTipo, string miCaracteristica[]);
 
 };
 

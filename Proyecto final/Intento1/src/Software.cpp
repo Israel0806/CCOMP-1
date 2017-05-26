@@ -1,4 +1,16 @@
 #include "Software.h"
 
-Software::Software(float miPrecio, char miNombre[], string categoria, char miCodigo[], string miTier1, string miTier2)
-    : Producto(miNombre,miPrecio, categoria), codigo(miCodigo), Tier1(miTier1), Tier2(miTier2) {}
+Software::Software()
+{
+
+}
+
+void Software::setData(string miNombre, float miPrecio, string miCategoria, int miCodigo, string miTier1, string miTier2)
+{
+    nombre=miNombre;
+    precio=miPrecio;
+    categoria=miCategoria;
+    codigo=miCodigo;
+    Tier1=miTier1;
+    Tier2=miTier2;
+}
