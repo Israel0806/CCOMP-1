@@ -6,12 +6,13 @@ using namespace std;
 class Clientes
 {
     private:
-        string listaClienteChar[50][4];
-        int listaClienteInt[50][2];
+        char sexo;
+        string nombre,direccion,preferencia;
+        int edad;
         //string nombre,direccion,preferencia,sexo;
         //int edad;
     public:
-        void SetData(string,string,string,int,string,int);
+        void SetData(char,string,string,int,string);
         void GetData(int);
         /*void ChangeName();
         void ChangeDirec();
