@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1495210422 source:c:\users\alumno-g\desktop\clase13\main.cpp
+	<iostream>
+	"Vehicle.h"
+	"Car.h"
+	"Truck.h"
+	"Bus.h"
+
+1495209540 c:\users\alumno-g\desktop\clase13\vehicle.h
+	<string>
+
+1495209540 source:c:\users\alumno-g\desktop\clase13\vehicle.cpp
+	"Vehicle.h"
+	<string>
+	<sstream>
+	<iostream>
+
+1495209678 source:c:\users\alumno-g\desktop\clase13\car.cpp
+	"Car.h"
+	<string>
+	<sstream>
+
+1495209040 c:\users\alumno-g\desktop\clase13\car.h
+	<string>
+	"Vehicle.h"
+
+1495209626 source:c:\users\alumno-g\desktop\clase13\truck.cpp
+	"Truck.h"
+	<string>
+	<sstream>
+
+1495209490 c:\users\alumno-g\desktop\clase13\truck.h
+	"Vehicle.h"
+
+1495210378 source:c:\users\alumno-g\desktop\clase13\bus.cpp
+	"Bus.h"
+	<string>
+	<sstream>
+
+1495210415 c:\users\alumno-g\desktop\clase13\bus.h
+	"Vehicle.h"
+
+1495209678 source:c:\users\alumno-g\desktop\ccomp-1\clase13\car.cpp
+	"Car.h"
+	<string>
+	<sstream>
+
+1495209040 c:\users\alumno-g\desktop\ccomp-1\clase13\car.h
+	<string>
+	"Vehicle.h"
+
+1495209540 c:\users\alumno-g\desktop\ccomp-1\clase13\vehicle.h
+	<string>
+
+1495210422 source:c:\users\alumno-g\desktop\ccomp-1\clase13\main.cpp
+	<iostream>
+	"Vehicle.h"
+	"Car.h"
+	"Truck.h"
+	"Bus.h"
+
+1495209490 c:\users\alumno-g\desktop\ccomp-1\clase13\truck.h
+	"Vehicle.h"
+
+1495210630 c:\users\alumno-g\desktop\ccomp-1\clase13\bus.h
+	"Vehicle.h"
+
+1495209626 source:c:\users\alumno-g\desktop\ccomp-1\clase13\truck.cpp
+	"Truck.h"
+	<string>
+	<sstream>
+
+1495209540 source:c:\users\alumno-g\desktop\ccomp-1\clase13\vehicle.cpp
+	"Vehicle.h"
+	<string>
+	<sstream>
+	<iostream>
+
