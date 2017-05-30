@@ -9,7 +9,7 @@ class Persona
     protected:
         string nombre;
         char sexo;
-        Birthday b;
+        Birthday b(int myYear=0, string myMonth="", int myDay=0);
     public:
         Persona();
         Persona(string nombre, char sexo, Birthday a);
