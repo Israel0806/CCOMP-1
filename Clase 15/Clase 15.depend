@@ -42,3 +42,37 @@
 1495816223 source:c:\users\alumno-g\desktop\clase 15\src\birthday.cpp
 	"Birthday.h"
 
+1496154716 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\main.cpp
+	<iostream>
+	"Persona.h"
+	"Gerente.h"
+	"Conserge.h"
+	"Birthday.h"
+
+1496154716 c:\users\alumno-a\desktop\ccomp-1\clase 15\include\persona.h
+	<string>
+	"Birthday.h"
+
+1496154716 c:\users\alumno-a\desktop\ccomp-1\clase 15\include\birthday.h
+	<iostream>
+
+1496154716 c:\users\alumno-a\desktop\ccomp-1\clase 15\include\gerente.h
+	"Persona.h"
+	<iostream>
+
+1496154716 c:\users\alumno-a\desktop\ccomp-1\clase 15\include\conserge.h
+	"Persona.h"
+	<iostream>
+
+1496154716 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\src\birthday.cpp
+	"Birthday.h"
+
+1496154716 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\src\conserge.cpp
+	"Conserge.h"
+
+1496154716 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\src\gerente.cpp
+	"Gerente.h"
+
+1496154716 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\src\persona.cpp
+	"Persona.h"
+

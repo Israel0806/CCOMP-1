@@ -4,8 +4,8 @@ Persona::Persona() {}
 
 Persona::Persona(string miNombre, char miSexo, Birthday a)
 {
-    this->nombre=nombre;
-    this->sexo=sexo;
+    this->nombre=miNombre;
+    this->sexo=miSexo;
     this->b=a;
     //Birthday(1998,"Julio",21);
 }
