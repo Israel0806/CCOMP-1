@@ -8,9 +8,8 @@ class Birthday
     public:
         int year, day;
         string month;
-        Birthday();
-        Birthday(int myYear, string myMonth, int myDay);
-        int getAge();
+        Birthday(int myYear=0, string myMonth="", int myDay=0);
+        virtual int getAge();
         virtual ~Birthday();
 
 };

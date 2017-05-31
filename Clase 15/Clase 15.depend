@@ -76,3 +76,37 @@
 1496155920 source:c:\users\alumno-a\desktop\ccomp-1\clase 15\src\persona.cpp
 	"Persona.h"
 
+1495825629 source:c:\users\israe\desktop\ccomp-1\clase 15\main.cpp
+	<iostream>
+	"Persona.h"
+	"Gerente.h"
+	"Conserge.h"
+	"Birthday.h"
+
+1496199726 c:\users\israe\desktop\ccomp-1\clase 15\include\persona.h
+	<string>
+	"Birthday.h"
+
+1496199671 c:\users\israe\desktop\ccomp-1\clase 15\include\birthday.h
+	<iostream>
+
+1496198540 c:\users\israe\desktop\ccomp-1\clase 15\include\gerente.h
+	"Persona.h"
+	<iostream>
+
+1496198540 c:\users\israe\desktop\ccomp-1\clase 15\include\conserge.h
+	"Persona.h"
+	<iostream>
+
+1496199605 source:c:\users\israe\desktop\ccomp-1\clase 15\src\birthday.cpp
+	"Birthday.h"
+
+1496199628 source:c:\users\israe\desktop\ccomp-1\clase 15\src\persona.cpp
+	"Persona.h"
+
+1496198540 source:c:\users\israe\desktop\ccomp-1\clase 15\src\conserge.cpp
+	"Conserge.h"
+
+1496199579 source:c:\users\israe\desktop\ccomp-1\clase 15\src\gerente.cpp
+	"Gerente.h"
+

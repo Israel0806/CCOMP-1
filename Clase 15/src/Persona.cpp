@@ -10,6 +10,11 @@ Persona::Persona(string miNombre, char miSexo, Birthday a)
     //Birthday(1998,"Julio",21);
 }
 
+int Persona::getAge()
+{
+    return 2017-b.year;
+}
+
 void Persona::mostrar()
 {}
 

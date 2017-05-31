@@ -9,11 +9,12 @@ class Persona
     protected:
         string nombre;
         char sexo;
-        Birthday b(int myYear=0, string myMonth="", int myDay=0);
+        Birthday b;
     public:
         Persona();
         Persona(string nombre, char sexo, Birthday a);
         virtual void mostrar()=0;
+        int getAge();
         //virtual void setNombre()=0;
         //virtual void setSexo()=0;
 

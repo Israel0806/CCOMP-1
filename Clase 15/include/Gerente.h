@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-class Gerente : public Persona, public Birthday
+class Gerente : public Persona
 {
     private:
         float sueldo;
