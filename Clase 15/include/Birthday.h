@@ -9,7 +9,6 @@ class Birthday
         int year, day;
         string month;
         Birthday(int myYear=0, string myMonth="", int myDay=0);
-        virtual int getAge();
         virtual ~Birthday();
 
 };

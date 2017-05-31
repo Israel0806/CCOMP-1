@@ -87,7 +87,7 @@
 	<string>
 	"Birthday.h"
 
-1496199671 c:\users\israe\desktop\ccomp-1\clase 15\include\birthday.h
+1496199947 c:\users\israe\desktop\ccomp-1\clase 15\include\birthday.h
 	<iostream>
 
 1496198540 c:\users\israe\desktop\ccomp-1\clase 15\include\gerente.h
@@ -98,10 +98,10 @@
 	"Persona.h"
 	<iostream>
 
-1496199605 source:c:\users\israe\desktop\ccomp-1\clase 15\src\birthday.cpp
+1496199947 source:c:\users\israe\desktop\ccomp-1\clase 15\src\birthday.cpp
 	"Birthday.h"
 
-1496199628 source:c:\users\israe\desktop\ccomp-1\clase 15\src\persona.cpp
+1496199726 source:c:\users\israe\desktop\ccomp-1\clase 15\src\persona.cpp
 	"Persona.h"
 
 1496198540 source:c:\users\israe\desktop\ccomp-1\clase 15\src\conserge.cpp

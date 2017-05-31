@@ -9,7 +9,7 @@ void Conserge::mostrar()
         <<"Sexo: "<<sexo<<endl
         <<"Sueldo: "<<sueldo<<endl
         <<"Horas de trabajo: "<<horasT<<endl
-        <<"Edad: "<<b.getAge()<<endl<<endl;
+        <<"Edad: "<<getAge()<<endl<<endl;
 }
 
 void Conserge::setNombre(string miNombre)
