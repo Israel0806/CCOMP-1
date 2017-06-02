@@ -13,4 +13,7 @@ public:
     void getData();
 };
 
+for( int i=0;i<miNombre.size();i++)
+    nombre[i]=miNOmbre[i]
+
 #endif // AUDIFONOS_H

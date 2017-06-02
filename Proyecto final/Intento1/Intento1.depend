@@ -152,3 +152,61 @@
 1496241253 source:c:\users\israe\desktop\ccomp-1\proyecto final\intento1\src\tv.cpp
 	"TV.h"
 
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<string.h>
+	"Clientes.h"
+	"Producto.h"
+	"Audifonos.h"
+	"Impresoras.h"
+	"Software.h"
+	"TV.h"
+	"Computadora.h"
+	<stdlib.h>
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\clientes.h
+	<iostream>
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\producto.h
+	<iostream>
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\audifonos.h
+	"Producto.h"
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\impresoras.h
+	"Producto.h"
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\software.h
+	"Producto.h"
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\tv.h
+	"Producto.h"
+
+1496416172 c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\include\computadora.h
+	"Producto.h"
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\audifonos.cpp
+	"Audifonos.h"
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\computadora.cpp
+	"Computadora.h"
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\impresoras.cpp
+	"Impresoras.h"
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\producto.cpp
+	"Producto.h"
+	<iostream>
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\software.cpp
+	"Software.h"
+
+1496416172 source:c:\users\alumno-g\desktop\ccomp-1\proyecto final\intento1\src\tv.cpp
+	"TV.h"
+

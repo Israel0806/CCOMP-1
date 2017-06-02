@@ -24,11 +24,14 @@ public:
     Torre() {}
     void add(Avion_1 w){
     aviones.push_back(&w);
-    w.mensaje();
     }
     void add(Avion_2 w){
     aviones.push_back(&w);
-    w.mensaje();
+    }
+    void mostrarMsm()
+    {
+        for(unsigned int i=0;i<aviones.size();i++)
+            aviones[i]->mensaje();
     }
 };
 
@@ -39,6 +42,7 @@ int main()
     Torre t;
     t.add(a);
     t.add(b);
+    t.mostrarMsm();
 
 
     return 32;

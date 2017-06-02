@@ -58,7 +58,6 @@ int main()
     int edad,precio,cantidad;
     string direccion,tipo,categoria;
     char nombre[20],sexo;
-
     do
     {
         printMenu(); cin>>op;
