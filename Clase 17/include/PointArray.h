@@ -13,7 +13,7 @@ public:
     PointArray(PointArray& pv);
 
     void _clear();
-    int getSize();
+    int getSize() const;
     void push(Point &p);
     void _insert(int pos, Point &p);
     void _remove(int pos);

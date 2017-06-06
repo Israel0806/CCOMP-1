@@ -14,3 +14,27 @@
 1496424749 c:\users\alumno-g\desktop\clase 17\include\pointarray.h
 	"Point.h"
 
+1496758877 source:c:\users\alumno-a\desktop\ccomp-1\clase 17\main.cpp
+	<iostream>
+
+1496758877 source:c:\users\alumno-a\desktop\ccomp-1\clase 17\src\point.cpp
+	"Point.h"
+
+1496758877 c:\users\alumno-a\desktop\ccomp-1\clase 17\include\point.h
+
+1496762378 source:c:\users\alumno-a\desktop\ccomp-1\clase 17\src\pointarray.cpp
+	"PointArray.h"
+	<iostream>
+
+1496761512 c:\users\alumno-a\desktop\ccomp-1\clase 17\include\pointarray.h
+	"Point.h"
+
+1496762075 source:c:\users\alumno-a\desktop\ccomp-1\clase 17\src\rectangle.cpp
+	"Rectangle.h"
+
+1496763265 c:\users\alumno-a\desktop\ccomp-1\clase 17\include\rectangle.h
+	"Polygon.h"
+
+1496762378 c:\users\alumno-a\desktop\ccomp-1\clase 17\include\polygon.h
+	"PointArray.h"
+

@@ -14,6 +14,11 @@ PointArray::PointArray(Point pts[],int newSize)
         points[i]=pts[i];
 }
 
+int PointArray::getSize() const
+{
+    return _size;
+}
+
 PointArray::PointArray(PointArray &pv)
 {
     _size=pv._size;
@@ -58,13 +63,13 @@ void PointArray::_remove(int pos)
 
 Point *PointArray::get(int pos)
 {
-    return pos>=0 or pos<_size? points+pos: NULL;
+    return pos>=0 and pos<_size? points+pos: NULL;
 }
 
 
 const Point *PointArray::get(int pos) const
 {
-    return pos>=0 or pos<_size? points+pos: NULL;
+    return pos>=0 and pos<_size? points+pos: NULL;
 }
 
 PointArray::~PointArray()
