@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1496979569 source:c:\users\israe\desktop\ccomp-1\clase_17\main.cpp
+	<iostream>
+	"Geometry.h"
+
+1496979700 source:c:\users\israe\desktop\ccomp-1\clase_17\src\geometry.cpp
+	"Geometry.h"
+	<cmath>
+	<cstdlib>
+
+1496979645 c:\users\israe\desktop\ccomp-1\clase_17\include\geometry.h
+
+1496978434 source:c:\users\israe\desktop\ccomp-1\clase_17\src\point.cpp
+	"Point.h"
+
+1496978434 c:\users\israe\desktop\ccomp-1\clase_17\include\point.h
+
+1496978434 source:c:\users\israe\desktop\ccomp-1\clase_17\src\pointarray.cpp
+	"PointArray.h"
+	<iostream>
+
+1496978434 c:\users\israe\desktop\ccomp-1\clase_17\include\pointarray.h
+	"Point.h"
+
