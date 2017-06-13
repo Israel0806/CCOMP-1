@@ -22,3 +22,12 @@
 1496978434 c:\users\israe\desktop\ccomp-1\clase_17\include\pointarray.h
 	"Point.h"
 
+1497364546 source:c:\users\alumno-a\desktop\ccomp-1\clase_17\main.cpp
+	<iostream>
+	"Geometry.h"
+
+1497364546 source:c:\users\alumno-a\desktop\ccomp-1\clase_17\src\geometry.cpp
+	"Geometry.h"
+	<cmath>
+	<cstdlib>
+
