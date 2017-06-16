@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1497630522 source:c:\users\alumno-g\desktop\grafos\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<stdexcept>
+

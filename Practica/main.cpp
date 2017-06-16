@@ -77,7 +77,7 @@ template<class T>
 class Queue
 {
     friend Queue<T> operator+<>(const Queue<T> &s1, const Queue<T> &s2);
-    friend ostream &operator<<(ostream &o,const Queue<T> &s1)
+    ostream &operator<<(ostream &o,const Queue<T> &s1)
     {
         for(unsigned i=0; i<s1.items.size();++i)
             o<<s1.items[i]<<endl;
