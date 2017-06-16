@@ -6,9 +6,9 @@
 using namespace std;
 
 class Graph {
-protected :
-     map <int , vector <int > > outgoing ;
-public :
+protected:
+     map <int , vector <int> > outgoing;
+public:
     Graph ( const vector <int > & startPoints , const vector <int > &endPoints )
     {
         if( startPoints . size () != endPoints . size ())
@@ -23,7 +23,7 @@ public :
     }
     int numOutgoing ( const int nodeID ) const
     {
-        return adjacent ( nodeID ). size ();
+        return adjacent( nodeID ).size();
     }
 
     const vector <int > & adjacent ( const int nodeID ) const
@@ -31,7 +31,7 @@ public :
         map <int , vector <int > >:: const_iterator i = outgoing . find ( nodeID );
         if(i == outgoing . end ())
             throw invalid_argument (" Invalid node ID");
-        return i-> second ;
+        return i-> second;
     }
  };
 
@@ -47,6 +47,5 @@ int main()
     b.push_back(4);
     Graph g(a,b);
     cout<<g.numOutgoing(2);
-    g.adjacent(3);
     return 0;
 }
