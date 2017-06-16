@@ -9,7 +9,7 @@ template<class T>
 Stack<T> operator+(const Stack<T> &s1, const Stack<T> &s2)
 {
     Stack<T> result=s1;
-    for(unsigned i=0; i<s1.items.size();++i)
+    for(unsigned i=0; i<s2.items.size();++i)
         result.items.push_back(s2.items[i]);
     return result;
 }
@@ -18,22 +18,17 @@ template<class T>
 Stack<T> operator-(const Stack<T> &s1, const Stack<T> &s2)
 {
     Stack<T> result;
-    //vector<T> result=s1;
-    vector<T> temp;
-    for(unsigned i=0;i<s1.items.size();++i)
-        temp.push_back(s1.items[i]);
     for(unsigned i=0; i<s1.items.size();++i)
     {
-        for(unsigned j=0; j<s1.items.size();++j)
+        bool temp=false;
+        for(unsigned j=0; j<s2.items.size();++j)
         {
-            if(result.items[i]==s2.items[j])
-                {
-                    temp.pop_back(result.items[i]);
-                }
+            if(s1.items[i]==s2.items[j])
+                temp=true;
         }
+        if(temp==false)
+            result.push(s1.items[i]);
     }
-    for(unsigned i=0;i<temp.size();++i)
-        result.push()
     return result;
 }
 
@@ -66,7 +61,14 @@ int main()
     a.push(1);
     a.push(2);
     a.push(3);
+    a.push(5);
+    a.push(32);
     b.push(2);
+    b.push(1);
+    b.push(5);
+    b.push(4);
+    b.push(11);
+    b.push(33);
     Stack<int> c=a+b;
     Stack<int> d=a-b;
     d.mostrar();
