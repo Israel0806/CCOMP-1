@@ -44,24 +44,20 @@ public:
     friend Matriz<T> operator *(Matriz<T> &a, Matriz<T> &b)
     {
         Matriz<T> result(a.getN(),b.getM());
-        if(a.getM()==b.getN() )
+        if(a.getM()==b.getN())
         {
-            for(int i=0; i<a.getN();i++)
+            for(int i=0; i<result.getN();i++)
             {
-                for(int j=0;j<b.getN();j++)
+                for(int j=0;j<result.getM();j++)
                 {
                     T sum=0;
-                    for(int k=0;k<b.getM();k++)
+                    for(int k=0;k<b.getN();k++)
                     {
-                        sum+=a.matriz[j][k]*b.matriz[k][j];
-                        cout<<sum<<" ";
+                        sum+=a.matriz[i][k]*b.matriz[k][j];
                     }
-                    cout<<"i: "<<i<<" j: "<<j<<endl<<endl;
                     result.matriz[i][j]=sum;
-                    cout<<result.matriz[i][j];
                 }
             }
-        cout<<"Se puede multiplicar\n";
         }
         else
         {
@@ -74,6 +70,7 @@ public:
     {
         for(int i=0;i<a.getN();i++)
         {
+            o<<"  ";
             for(int j=0;j<a.getM();j++)
             {
                 o<<a.matriz[i][j]<<" ";
@@ -87,12 +84,12 @@ public:
 
 int main()
 {
-    Matriz<int> a(4,3,1);
+    Matriz<int> a(2,3,1);
 
-    Matriz<int> b(3,4,3);
+    Matriz<int> b(3,3,2);
 
     Matriz<int> c=a*b;
 
-    cout<<c;
+    cout<<"Matriz resultante:"<<endl<<c;
     return 0;
 }
