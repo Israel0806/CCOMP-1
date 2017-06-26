@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1498452695 source:c:\users\israe\desktop\semestre ii\cc i\proyectos\buscartxt\main.cpp
+	<iostream>
+	<fstream>
+
