@@ -1,6 +1,2 @@
-# ccomp
-
-
-Israel Lopez Cruz
-
-asdasdasd
+# CC1
+Ejercicios de laboratorio 
